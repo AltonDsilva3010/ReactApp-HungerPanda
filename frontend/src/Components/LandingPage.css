@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap");
+.landingpage-container {
+  padding: 0;
+  margin: 0 100px 15px 100px;
+}
+
+.title-container img {
+  width: 100%;
+  height: 380px;
+}
+
+.title-container .search-container {
+  color: white;
+  position: absolute;
+  top: 100px;
+  left: 34%;
+}
+
+.search-container h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 75px;
+  margin: 40px 0 0 0;
+}
+
+.search-container p {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.select-city {
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.select-restaurant {
+  padding: 10px 200px 10px 10px;
+  margin-left: 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}

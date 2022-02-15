@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.signuppage-container {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+.loginpage-container {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+.bg-image {
+  height: auto;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+.signup-container {
+  color: white;
+  position: relative;
+  z-index: 1;
+  margin-top: 2%;
+  left: 10%;
+  width: 400px;
+  height: auto;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 0 10px 0 10px;
+}
+
+.login-container {
+  color: white;
+  position: relative;
+  z-index: 1;
+  margin-top: 10%;
+  left: 10%;
+  width: 400px;
+  height: auto;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 0 10px 0 10px;
+}
+
+.signup-container h1 {
+  text-align: center;
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.login-container h1 {
+  text-align: center;
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.signup-form {
+  margin: 0 10px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px 0px;
+  margin: 5px 0 25px 0;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.signup-form .btn {
+  padding: 10px 17px;
+  background-color: #0d6efd;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.categories-container {
+  display: flex;
+  margin: 0 auto;
+}
+
+.category-container {
+  background-color: white;
+  height: 250px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #aeaeae;
+  margin: 10px 35px 0 35px;
+}
+
+.category-container img {
+  width: 100%;
+  height: 75%;
+  border-radius: 5px;
+}
+
+.category-container h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 10px;
+}
